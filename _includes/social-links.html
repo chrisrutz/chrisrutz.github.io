@@ -35,6 +35,12 @@
         </a>
     {% endif %}
 
+    {% if site.xing %}
+        <a class="link" data-title="xing.com/profile/{{ site.xing }}" href="http://www.xing.com/profile/{{ site.xing }}" target="_blank">
+            <svg class="icon icon-xing"><use xlink:href="#icon-xing"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.youtube %}
         <a class="link" data-title="youtube.com/{{ site.youtube }}" href="http://youtube.com/{{ site.youtube }}" target="_blank">
             <svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg>
@@ -52,7 +58,7 @@
             <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
         </a>
     {% endif %}
-    
+
     {% if site.stackoverflow %}
         <a class="link" data-title="stackoverflow.com/users/{{ site.stackoverflow }}" href="http://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank">
             <svg class="icon icon-stackoverflow"><use xlink:href="#icon-stackoverflow"></use></svg>
