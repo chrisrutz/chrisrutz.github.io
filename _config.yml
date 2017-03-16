@@ -11,7 +11,6 @@ external-image: false
 picture: assets/images/profile.jpg
 
 url: https://chrisrutz.github.io
-# your url: http://USERNAME.github.io
 
 permalink: /:title/
 
@@ -19,11 +18,7 @@ markdown: kramdown
 highlighter: rouge
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
-
-# To enable piwik tracking, supply your url & site ID below
-# analytics-piwik-url: 'piwik.my-host.com'
-# analytics-piwik-id: 1
+analytics-google: 'UA-88800308-1'
 
 # if you don't want comments in your posts, set to false
 disqus: false
