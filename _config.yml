@@ -12,16 +12,13 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
+resume: false
+resume-external: false
 resume-url: https://google.com/?q=my+resume
 
 url: https://chrisrutz.github.io
 
 permalink: /:title/
-
-markdown: kramdown
-highlighter: rouge
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-88800308-1'
@@ -29,7 +26,7 @@ analytics-google: 'UA-88800308-1'
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 facebook: chrisrutz
